@@ -1,0 +1,35 @@
+.piechart{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    j//ustify-content: space-between;
+
+    h1{
+        font-size: 20px;
+        color: rgb(218, 218, 191);
+    }
+    // .chart{
+    //    display: flex;
+    //    align-items: center;
+    //    justify-content: center;
+    //}
+    .bottom{
+        display: flex;
+        justify-content: space-between;
+        gap:10px;
+        font-size: 14px;
+
+        .combine{
+            display: flex;
+            gap:10px;
+            align-items: center;
+
+            .dot{
+                width: 10px;
+                height: 10px;
+                border-radius: 50%;
+            }
+        }
+        
+    }
+}
